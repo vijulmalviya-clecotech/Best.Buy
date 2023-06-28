@@ -1,0 +1,59 @@
+.landingPage {
+    height: 100vh;
+    background-image: url("../../assets/images/homeBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .homebgContent {
+        height: 35vh;
+        padding: 2rem 0;
+        border-right: 5px solid $white;
+        background-color: #ffffff1e;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .mainContent {
+            color: $white;
+
+            .heading {
+                font-size: 7rem;
+                font-weight: $font-weight-bold;
+                font-family: 'DM Serif Display', serif !important;
+
+                @media (max-width: 600px) {
+                    font-size: 3.5rem;
+                }
+            }
+
+            .subHeading {
+                font-size: 2rem;
+
+                @media (max-width: 600px) {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .subContent {
+            font-size: $font-size-lg;
+            color: $primary;
+            text-decoration: none;
+            border: 1px solid $primary;
+            padding: 1rem 1.5rem;
+
+            @media (max-width: 600px) {
+                font-size: $font-size-base;
+                padding: 0.8rem;
+                font-size: $font-size-sm;
+            }
+        }
+    }
+}
