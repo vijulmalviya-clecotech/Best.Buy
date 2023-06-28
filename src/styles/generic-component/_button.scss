@@ -1,0 +1,14 @@
+.outlinedButton{
+    padding: 0.5rem 1rem;
+    border: 2px solid $primary;
+    color: $primary;
+    border-radius: 30px;
+    font-size: $font-size-sm;
+    text-decoration: none;
+    background-color: transparent;
+    transition: 0.125s ease-in-out;
+    &:hover {
+        background-color: $primary;
+        color: $white;
+    }
+}
