@@ -17,8 +17,8 @@ const LandingPage = () => {
                 Seasonal Pick
               </Typography>
               <Box className="mainContent">
-                <Typography className="heading">Winter Sale</Typography>
-                <Typography className="subHeading">upto 70%</Typography>
+                <Typography className="heading">A New Era</Typography>
+                <Typography className="subHeading">of Shopping...</Typography>
               </Box>
               <Typography
                 component={Link}

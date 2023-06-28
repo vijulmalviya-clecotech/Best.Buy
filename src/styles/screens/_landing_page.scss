@@ -13,12 +13,12 @@
     .homebgContent {
         height: 35vh;
         padding: 2rem 0;
-        border-right: 5px solid $white;
-        background-color: #ffffff1e;
+        background-color: #0000002d;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        clip-path: polygon(0 0, 100% 0, calc(100% - (35vh * tan(10deg))) 100%, calc(35vh * tan(10deg)) 100%);
 
         .mainContent {
             color: $white;
@@ -35,6 +35,7 @@
 
             .subHeading {
                 font-size: 2rem;
+                font-family: 'DM Serif Display', serif !important;
 
                 @media (max-width: 600px) {
                     font-size: 1.5rem;
