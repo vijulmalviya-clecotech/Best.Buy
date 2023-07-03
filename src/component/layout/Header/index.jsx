@@ -72,12 +72,12 @@ const Header = () => {
               <Grid item md={5} sm={4} xs={4}>
                 <Box className="iconNavigationContainer">
                   <Box className="navIcon">
-                    <Badge badgeContent={6}>
+                    <Badge badgeContent={0}>
                       <LocalMallOutlinedIcon />
                     </Badge>
                   </Box>
                   <Box className="navIcon">
-                    <Badge badgeContent={6}>
+                    <Badge badgeContent={0}>
                       <FavoriteBorderOutlinedIcon />
                     </Badge>
                   </Box>

@@ -13,7 +13,7 @@
     .homebgContent {
         height: 35vh;
         padding: 2rem 0;
-        background-color: #0000002d;
+        background-color: #0000008f;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -24,7 +24,7 @@
             color: $white;
 
             .heading {
-                font-size: 7rem;
+                font-size: 12rem;
                 font-weight: $font-weight-bold;
                 font-family: 'DM Serif Display', serif !important;
 
@@ -32,27 +32,36 @@
                     font-size: 3.5rem;
                 }
             }
+        }
 
-            .subHeading {
-                font-size: 2rem;
-                font-family: 'DM Serif Display', serif !important;
+        .subContent-btn {
+            font-size: $font-size-lg;
+            color: $white;
+            text-decoration: none;
+            border: 1px solid $white;
+            padding: 1rem 1.5rem;
 
-                @media (max-width: 600px) {
-                    font-size: 1.5rem;
-                }
+            &:hover {
+                border: 1px solid $primary;
+            }
+
+            @media (max-width: 600px) {
+                font-size: $font-size-base;
+                padding: 0.8rem;
+                font-size: $font-size-sm;
             }
         }
 
         .subContent {
             font-size: $font-size-lg;
-            color: $primary;
+            color: $white;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1rem;
             text-decoration: none;
-            border: 1px solid $primary;
-            padding: 1rem 1.5rem;
+
 
             @media (max-width: 600px) {
-                font-size: $font-size-base;
-                padding: 0.8rem;
                 font-size: $font-size-sm;
             }
         }
