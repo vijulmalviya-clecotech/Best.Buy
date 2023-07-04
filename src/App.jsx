@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import LandingPage from "./component/screens/LandingPage";
 import Header from "./component/layout/Header";
+import LandingPage from "./component/screens/landing-page";
 
 const App = () => {
   return (

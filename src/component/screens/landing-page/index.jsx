@@ -1,13 +1,14 @@
 import { Box, Grid, Typography, Container } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
-import CategoriesPage from "../CategoriesPage";
+import LandingStore from "../landing-store";
+import CategoriesPage from "../categories-page";
 
 const LandingPage = () => {
   return (
     <Grid container>
       <Grid item xs={12}>
-        <Box className="landingPage">
+        <Box className="landingPage mb-50">
           <Container>
             <Box className="homebgContent">
               <Typography
@@ -31,8 +32,13 @@ const LandingPage = () => {
           </Container>
         </Box>
         <Container>
-        <CategoriesPage />
+          <CategoriesPage />
         </Container>
+        <Box className="LandingStore mt-50 mb-50">
+        <Container>
+          <LandingStore />
+        </Container>
+        </Box>
       </Grid>
     </Grid>
   );
