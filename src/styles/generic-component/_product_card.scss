@@ -6,10 +6,11 @@
     flex-direction: column;
     overflow: hidden;
     background-color: $white;
+
     @media (max-width: 600px) {
         height: 22rem !important;
-      }
-    
+    }
+
 
 
     .card-img-container {
@@ -19,6 +20,7 @@
         background-repeat: no-repeat;
         background-position: top center;
         background-size: cover;
+
         &:hover .card-hover {
             visibility: visible;
         }
@@ -32,7 +34,8 @@
             height: 100%;
             background-color: rgba(0, 0, 0, 0.103);
             z-index: 99;
-            .like_btn{
+
+            .like_btn {
                 position: absolute;
                 top: 5%;
                 right: 5%;
@@ -44,25 +47,27 @@
                 border-radius: 50%;
                 background-color: $primary;
             }
-            .viewProducts_btn{
+
+            .viewProducts_btn {
                 width: 100%;
                 position: absolute;
                 bottom: 0;
                 height: 50px;
                 background-color: $primary;
-                color:  $white;
+                color: $white;
                 font-size: $font-size-base;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 text-transform: uppercase;
+
                 @media (max-width: 600px) {
                     height: 40px !important;
                     font-size: 12px;
-                  }
-                
+                }
+
             }
-            
+
         }
 
     }
@@ -74,30 +79,31 @@
 
         .title {
             font-size: $font-size-lg;
-            color: $black;
-            font-weight: $font-weight-bold;
+            color: $dark-gray;
+
             @media (max-width: 600px) {
                 font-size: $font-size-sm;
-              }
+            }
         }
 
         .price {
-            color: $primary;
+            color: $light-red;
             font-size: $font-size-lg;
-            font-weight: $font-weight-bold;
+
             @media (max-width: 600px) {
                 font-size: $font-size-sm;
-              }
+            }
         }
 
         .categories {
             width: 70%;
-            color: $primary;
+            color: $light-gray;
             font-size: $font-size-sm;
             text-transform: uppercase;
+
             @media (max-width: 600px) {
                 font-size: .75rem;
-              }
+            }
         }
     }
 }
